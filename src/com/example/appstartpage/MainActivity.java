@@ -11,6 +11,10 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+/**
+ * @author HSW
+ *
+ */
 public class MainActivity extends Activity {
 
     ImageView imageView;
@@ -31,6 +35,10 @@ public class MainActivity extends Activity {
 		animationDrawable.start();
 	}
 
+	
+	/**
+	 * 
+	 */
 	private void initAnimOne() {
 		// TODO Auto-generated method stub
 		imageView = (ImageView) findViewById(R.id.imageview);
